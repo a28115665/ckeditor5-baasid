@@ -1,6 +1,6 @@
 {
   "name": "@baasid-tw/ckeditor5-custom-build",
-  "author": "Alan Hsu <a28115665@gmail.com>",
+  "author": "alanhsu",
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
   "version": "0.0.1",
   "license": "SEE LICENSE IN LICENSE.md",
