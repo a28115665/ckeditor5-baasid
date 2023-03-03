@@ -32,6 +32,7 @@ import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js';
 import MediaEmbedToolbar from '@ckeditor/ckeditor5-media-embed/src/mediaembedtoolbar.js';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice.js';
+import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter'
 import SpecialCharacters from '@ckeditor/ckeditor5-special-characters/src/specialcharacters.js';
 import SpecialCharactersArrows from '@ckeditor/ckeditor5-special-characters/src/specialcharactersarrows.js';
 import SpecialCharactersCurrency from '@ckeditor/ckeditor5-special-characters/src/specialcharacterscurrency.js';
@@ -78,6 +79,7 @@ Editor.builtinPlugins = [
 	MediaEmbedToolbar,
 	Paragraph,
 	PasteFromOffice,
+	SimpleUploadAdapter,
 	SpecialCharacters,
 	SpecialCharactersArrows,
 	SpecialCharactersCurrency,

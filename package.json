@@ -2,7 +2,7 @@
   "name": "ckeditor5-custom-build-baasid",
   "author": "alanhsu",
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "SEE LICENSE IN LICENSE.md",
   "main": "./build/ckeditor.js",
   "devDependencies": {
@@ -30,6 +30,7 @@
     "@ckeditor/ckeditor5-table": "^30.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^30.0.0",
     "@ckeditor/ckeditor5-typing": "^30.0.0",
+    "@ckeditor/ckeditor5-upload": "^36.0.1",
     "css-loader": "^5.2.7",
     "postcss": "^8.3.8",
     "postcss-loader": "^4.3.0",
@@ -49,5 +50,6 @@
   "bugs": {
     "url": "https://github.com/a28115665/ckeditor5-baasid/issues"
   },
-  "homepage": "https://github.com/a28115665/ckeditor5-baasid#readme"
+  "homepage": "https://github.com/a28115665/ckeditor5-baasid#readme",
+  "dependencies": {}
 }
