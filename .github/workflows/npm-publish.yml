@@ -30,6 +30,10 @@ jobs:
           registry-url: https://registry.npmjs.org/
           scope: "alanhsu"
       - run: npm ci
-      - run: npm publish
+      - name: Login to NPM registry
+        run: npm adduser --registry=https://registry.npmjs.org/
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: npm publish
+#         env:
+#           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
