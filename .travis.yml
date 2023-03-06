@@ -5,6 +5,6 @@ node_js:
 deploy:
   provider: npm
   email: 'a28115665@gmail.com'
-  api_token: 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
+  api_token: $NPM_API_KEY
   on:
     tags: true
