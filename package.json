@@ -30,7 +30,7 @@
     "@ckeditor/ckeditor5-table": "^30.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^30.0.0",
     "@ckeditor/ckeditor5-typing": "^30.0.0",
-    "@ckeditor/ckeditor5-upload": "^36.0.1",
+    "@ckeditor/ckeditor5-upload": "^30.0.0",
     "css-loader": "^5.2.7",
     "postcss": "^8.3.8",
     "postcss-loader": "^4.3.0",
